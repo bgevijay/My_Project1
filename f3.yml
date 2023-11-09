@@ -1,0 +1,14 @@
+---
+name: sample file
+on:
+  push:
+    branches:
+jobs:
+ build:
+ runs-on: [vmname]
+ steps:
+   - name: execute ls cmnds
+     uses: actions/checkout@v3
+   - run: |
+      ls -la
+   
