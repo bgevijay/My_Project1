@@ -3,9 +3,4 @@ on:
   push:
   branches:
     -master
-one
-two three
-four
-five
-six
-seven
+
