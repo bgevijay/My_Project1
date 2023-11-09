@@ -5,7 +5,7 @@ on:
     branches:
 jobs:
  build:
- runs-on: [vmname]
+ runs-on: [practice_vm]
  steps:
    - name: execute ls cmnds
      uses: actions/checkout@v3
